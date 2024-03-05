@@ -9,7 +9,6 @@ class WorkoutEntity extends Equatable {
   final String day;
 
   @override
-  // TODO: implement props
   List<Object?> get props => [
         workoutId,
         title,

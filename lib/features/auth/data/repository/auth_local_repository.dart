@@ -36,37 +36,31 @@ class AuthLocalRepository implements IAuthRepository {
 
   @override
   Future<Either<Failure, UserEntity>> getUser(String id) {
-    // TODO: implement getUser
     throw UnimplementedError();
   }
 
   @override
   Future<Either<Failure, List<UserEntity>>> getAllUsers() {
-    // TODO: implement getAllUsers
     throw UnimplementedError();
   }
 
   @override
   Future<Either<Failure, bool>> checkUser(String userID) {
-    // TODO: implement checkUser
     throw UnimplementedError();
   }
 
   @override
   Future<Either<Failure, UserEntity>> getMe() {
-    // TODO: implement getMe
     throw UnimplementedError();
   }
 
   @override
   Future<Either<Failure, List<RoutineEntity>>> getMyRoutine() {
-    // TODO: implement getMyRoutine
     throw UnimplementedError();
   }
 
   @override
   Future<Either<Failure, UserEntity>> updateUser(String user, UserEntity dd) {
-    // TODO: implement updateUser
     throw UnimplementedError();
   }
 }

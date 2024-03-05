@@ -43,7 +43,6 @@ class AuthRemoteRepository implements IAuthRepository {
 
   @override
   Future<Either<Failure, bool>> checkUser(String userID) {
-    // TODO: implement checkUser
     throw UnimplementedError();
   }
 
@@ -54,14 +53,12 @@ class AuthRemoteRepository implements IAuthRepository {
 
   @override
   Future<Either<Failure, List<RoutineEntity>>> getMyRoutine() {
-    // TODO: implement getMyRoutine
     return _authRemoteDataSource.getMyRoutine();
   }
 
   @override
   Future<Either<Failure, UserEntity>> updateUser(
       String userId, UserEntity user) {
-    // TODO: implement updateUser
     return _authRemoteDataSource.updateUser(userId, user);
   }
 }
